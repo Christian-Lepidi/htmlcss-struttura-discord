@@ -30,25 +30,68 @@ header{
 .container2{
    width: 100%;
    height: 600px;
-   background-color: blue;
    display: flex;
-    
+}  
+
+.blue{
+    background-color: blue;
 }
+
+.grey{
+    background-color: rgb(205, 203, 203);
+}
+    
+
 
 .header-container2{
     width: 50%;
     height: 400px;
     background-color: darkorchid;
+    border: 1px dashed black;
     margin-left: auto;
     margin-right: auto;
     align-self: center;
-   
-    
-    
-    
-    
-
-
 }
+
+.main-section1{
+    height: 500px;
+    width: 40%;
+    background-color: cyan;
+    border: 1px dashed black;
+    margin-left: auto;
+    align-self: center;
+    
+}
+
+.main-section2{
+    height: 500px;
+    width:30%;
+    background-color: pink;
+    border: 1px dashed black;
+    margin-right: auto;
+    align-self: center;
+     
+}
+
+.main-section3{
+    height: 500px;
+    width:30%;
+    background-color: pink;
+    border: 1px dashed black;
+    margin-left: auto;
+    align-self: center;
+}
+
+.main-section4{
+    height: 500px;
+    width: 40%;
+    background-color: cyan;
+    border: 1px dashed black;
+    margin-right: auto;
+    align-self: center;   
+}
+
+ 
+
 
   
