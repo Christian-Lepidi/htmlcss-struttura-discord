@@ -5,7 +5,8 @@
 }
 
 header{
-    background-color: aquamarine;
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .container{
@@ -21,17 +22,20 @@ header{
 
 .central-section{
     flex-grow: 2;
-    border: 1px solid black;
-    background-color: goldenrod;
-    text-align: center;   
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+      
 }
 
-.section{
-    flex-grow: 1;
-    border: 1px solid black;
-    background-color: goldenrod;
-    text-align: center;
-    
+
+
+
+.button{
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 25px;
 }
 
 .container2{
@@ -40,9 +44,9 @@ header{
    display: flex;
 }  
 
-.blue{
-    background-color: blue;
-}
+
+   
+
 
 .grey{
     background-color: rgb(205, 203, 203);
