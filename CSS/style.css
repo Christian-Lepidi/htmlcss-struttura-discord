@@ -32,9 +32,6 @@
       
 }
 
-
-
-
 .button{
   padding: 10px;
   font-size: 15px;
@@ -47,21 +44,10 @@
    display: flex;
 }  
 
-
-   
-
-
-.grey{
-    background-color: rgb(205, 203, 203);
-}
-    
-
-
 .header-container2{
     width: 50%;
     height: 400px;
-    background-color: darkorchid;
-    border: 1px dashed black;
+    background-color: rgba(153, 51, 204, 0);
     margin-left: auto;
     margin-right: auto;
     align-self: center;
@@ -70,14 +56,35 @@
 .h2{
     color: white;
     font-size: 35px;
-    padding-left: 170px;
+    text-align: center;
     margin-bottom: 40px;
 }
 
-.p{
+.paragraph{
     color: white;
-    font-size: 20px;  
+    font-size: 20px;
+    text-align: center; 
+    line-height: 35px; 
 }
+
+.download{
+  margin-top: 80px; 
+  margin-left: 120px;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+.open{
+    color: white;
+    background-color: rgb(38, 38, 38);
+    margin-left: 40px;
+}
+
+
+
+
+
 
 .main-section1{
     height: 500px;
