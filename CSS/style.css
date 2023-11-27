@@ -1,8 +1,12 @@
+/*GENERICS*/
+
 *{
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
 }
+
+/*HEADER*/
 
 .header{
     background-image: url(../img/jumbo.png);
@@ -47,13 +51,12 @@
 .header-container2{
     width: 50%;
     height: 400px;
-    background-color: rgba(153, 51, 204, 0);
     margin-left: auto;
     margin-right: auto;
     align-self: center;
 }
 
-.h2{
+.central-text{
     color: white;
     font-size: 35px;
     text-align: center;
@@ -81,16 +84,15 @@
     margin-left: 40px;
 }
 
-
-
+/*FINE HEADER*/
 
 
 
 .main-section1{
     height: 500px;
-    width: 40%;
-    background-color: cyan;
-    border: 1px dashed black;
+    width: 50%;
+    background-image: url(../img/item1.svg);
+    background-size: cover;
     margin-left: auto;
     align-self: center;
     
@@ -99,12 +101,26 @@
 .main-section2{
     height: 500px;
     width:30%;
-    background-color: pink;
-    border: 1px dashed black;
     margin-right: auto;
     align-self: center;
-     
 }
+/*testo main-section2*/
+
+.initial-main-text{
+   text-align: center;
+   line-height: 40px;
+   font-size: 35px;
+   margin-top: 30px;
+}
+
+.central-paragraph{
+    text-align: center;
+    margin-top: 80px; 
+}
+
+/*fine prima main-section2*/
+
+
 
 .main-section3{
     height: 500px;
@@ -115,13 +131,36 @@
     align-self: center;
 }
 
+.central-h2{
+    margin-top: 15px;
+    font-size: 30px;
+}
+
 .main-section4{
     height: 500px;
     width: 40%;
-    background-color: cyan;
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+    margin: auto;
+    align-self: center;   
+}
+
+.main-section5{
+    height: 500px;
+    width:40%;
+    background-color: aqua;
+    border: 1px dashed black;
+    margin-left: auto;
+    align-self: center;  
+}
+
+.main-section6{
+    height: 500px;
+    width:30%;
+    background-color: pink;
     border: 1px dashed black;
     margin-right: auto;
-    align-self: center;   
+    align-self: center;
 }
 
 .container3{
@@ -131,7 +170,7 @@
     display: flex;  
 }
 
-.main-section5{
+.main-section7{
     width: 70%;
     height: 800px;
     background-color: green;
